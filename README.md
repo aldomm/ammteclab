@@ -1,4 +1,4 @@
-# AMM TecLab
+# AMM Tec Lab
 Public homepage at https://ammteclab.com/ for Aldo Mendes Martins's projects.
 
 Buildless HTML and CSS. GitHub Pages publishes `main` from `/`. Preserve `CNAME` when updating. Preview: `python3 -m http.server 18770`.
