@@ -1,0 +1,340 @@
+[
+  {
+    "id": "roster",
+    "title": "Your month, at a glance",
+    "group": "Roster",
+    "summary": "A compact matrix that keeps the whole duty readable.",
+    "steps": [
+      "Swipe across dates. The month header follows the visible month.",
+      "Tap a flight number for details, or a purple report time for an FDP scenario.",
+      "Read each day’s FLT footer. Overnight sectors count in full on their arrival date."
+    ],
+    "help": "matrix",
+    "image": "screenshots/roster.webp"
+  },
+  {
+    "id": "landscape",
+    "title": "More days with one rotation",
+    "group": "Roster",
+    "summary": "The same narrow columns, with more room across the screen.",
+    "steps": [
+      "Rotate your phone to landscape. Your visible date stays in view.",
+      "The top controls disappear to give the roster more vertical space.",
+      "Return to portrait to access Settings and the toolbar."
+    ],
+    "help": "gestures",
+    "image": "screenshots/landscape.webp"
+  },
+  {
+    "id": "comparison",
+    "title": "Compare with the published roster",
+    "group": "Roster",
+    "summary": "Latest above, Original below. Both move together.",
+    "steps": [
+      "Open Settings → Roster comparison and select a month.",
+      "Scroll horizontally to compare the same dates; scroll vertically for longer duties.",
+      "Light amber marks changed past days. Originals are preserved locally."
+    ],
+    "help": "comparison",
+    "image": "screenshots/comparison.webp"
+  },
+  {
+    "id": "comparison-future",
+    "title": "Spot upcoming changes",
+    "group": "Roster",
+    "summary": "Stronger amber brings today’s and future changes into focus.",
+    "steps": [
+      "The website’s published roster is preferred as Original.",
+      "When unavailable, the first full-month download is a clearly labelled fallback.",
+      "Compare daily and monthly UTC elapsed durations. Turning comparison off preserves saved data."
+    ],
+    "help": "comparison",
+    "image": "screenshots/comparison-future.webp"
+  },
+  {
+    "id": "saved",
+    "title": "Open one month or several",
+    "group": "Roster",
+    "summary": "Combine saved months without downloading them again.",
+    "steps": [
+      "Open Saved Rosters from the clock-arrow toolbar button.",
+      "Select the months you want to join, or use Current month + next.",
+      "Swipe a saved period to delete it. A new sync replaces that period’s latest copy."
+    ],
+    "help": "saved",
+    "image": "screenshots/saved.webp"
+  },
+  {
+    "id": "flight",
+    "title": "One flight, one clear card",
+    "group": "Flight & duty",
+    "summary": "Route, local and UTC times, aircraft, gate and passenger information.",
+    "steps": [
+      "Tap the flight number in the matrix.",
+      "Swipe to another flight in the same duty.",
+      "PAX, gate, registration and crew reflect the last roster sync; weather refresh is separate."
+    ],
+    "help": "details",
+    "image": "screenshots/flight.webp"
+  },
+  {
+    "id": "crew",
+    "title": "Put names and countries together",
+    "group": "Flight & duty",
+    "summary": "Roster-supplied crew details with compact nationality flags.",
+    "steps": [
+      "Open the crew section in flight details.",
+      "Tap a flag to see the country name and a larger flag.",
+      "Country labels come from the roster website, not an inference from someone’s name."
+    ],
+    "help": "crew-nationality",
+    "image": "screenshots/crew.webp"
+  },
+  {
+    "id": "duty",
+    "title": "Training and other duties",
+    "group": "Flight & duty",
+    "summary": "A condensed card for duties that are not flight sectors.",
+    "steps": [
+      "Tap a duty such as PC or RT in the matrix.",
+      "Read the available schedule, location and participants.",
+      "Crew and other fields appear only when the roster website supplies them."
+    ],
+    "help": "details",
+    "image": "screenshots/duty.webp"
+  },
+  {
+    "id": "airport",
+    "title": "Airport reminders, one tap away",
+    "group": "Flight & duty",
+    "summary": "Compact public airport facts and available procedure reminders.",
+    "steps": [
+      "Tap the origin or destination airport code on a flight card.",
+      "Switch between departure and arrival information.",
+      "Use these dated reminders to locate official information, never as current operational procedures."
+    ],
+    "help": "details",
+    "image": "screenshots/airport.webp"
+  },
+  {
+    "id": "weather",
+    "title": "Read the full weather report",
+    "group": "Flight & duty",
+    "summary": "METAR and TAF remain separate from roster synchronization.",
+    "steps": [
+      "Tap a weather summary in flight details.",
+      "Inspect the full report and its issue, observation and validity times.",
+      "Refresh weather independently. The sample report pictured here is fictional, not live weather."
+    ],
+    "help": "weather",
+    "image": "screenshots/weather.webp"
+  },
+  {
+    "id": "weather-rules",
+    "title": "Understand weather highlights",
+    "group": "Flight & duty",
+    "summary": "Know what the app flags—and what those flags cannot establish.",
+    "steps": [
+      "Open Weather alert rules from flight details.",
+      "Review the visibility, ceiling, wind and significant-weather thresholds.",
+      "These highlights are incomplete attention aids, not a briefing or aircraft operating limits."
+    ],
+    "help": "weather",
+    "image": "screenshots/weather-rules.webp"
+  },
+  {
+    "id": "fdp",
+    "title": "Explore an FDP scenario",
+    "group": "Planning",
+    "summary": "The report and arrival wheels show the time gap to a table-based endpoint.",
+    "steps": [
+      "Tap a purple report time in the roster.",
+      "Adjust report or arrival using the wheels; toggle LOCAL/UTC for reference.",
+      "Add one sector for a scenario, then RESET TIMES TO ROSTER to clear all overrides. HKCAD Table A only."
+    ],
+    "help": "fdp",
+    "image": "screenshots/fdp.webp"
+  },
+  {
+    "id": "reminder",
+    "title": "A reminder for one duty",
+    "group": "Planning",
+    "summary": "Set a named notification relative to that duty’s report time.",
+    "steps": [
+      "Open the report reminder link from Flight Details.",
+      "For zero days, choose a lead time in 15-minute steps—even if it crosses midnight.",
+      "For one or more days, choose the earlier date and local time of day. Check the calculated reminder time."
+    ],
+    "help": "notifications",
+    "image": "screenshots/reminder.webp"
+  },
+  {
+    "id": "general-reminder",
+    "title": "Make reminders a habit",
+    "group": "Planning",
+    "summary": "Apply a general timing rule to saved future report times.",
+    "steps": [
+      "Open the bell, then the general reminder option.",
+      "Choose a rule such as 1:30 before, or two days before at 09:00.",
+      "Allow iOS notifications and review them after roster changes. Delivery still depends on device settings."
+    ],
+    "help": "notifications",
+    "image": "screenshots/general-reminder.webp"
+  },
+  {
+    "id": "friends",
+    "title": "Find time together",
+    "group": "Sharing",
+    "summary": "A minimal shared roster, with names and your own row kept visible.",
+    "steps": [
+      "Pair through mutual QR sharing; scan with the camera or select a QR image.",
+      "Scroll across dates and down people. Tap multiple dates to highlight columns.",
+      "Edit nicknames locally, or stop sharing with a selected friend. Checks run once per app launch or on Refresh."
+    ],
+    "help": "friends",
+    "image": "screenshots/friends.webp"
+  },
+  {
+    "id": "pdf",
+    "title": "Share a printable roster",
+    "group": "Sharing",
+    "summary": "A clean monthly matrix with the owner’s name beneath the title.",
+    "steps": [
+      "Open Settings → Sharing.",
+      "Choose current month, or current and next month when available.",
+      "Preview the PDF, then use Share to choose a destination or Print. Share only where authorized."
+    ],
+    "help": "pdf-sharing",
+    "image": "screenshots/pdf.webp"
+  },
+  {
+    "id": "backup",
+    "title": "Move your saved history",
+    "group": "Sharing",
+    "summary": "Transfer roster data between app instances without another website sync.",
+    "steps": [
+      "Open Settings → Import / export roster backup.",
+      "Save the file, then Import and merge in the destination app.",
+      "Credentials, reminders, preferences and separate Original snapshots are not transferred. Protect personal roster files."
+    ],
+    "help": "backup",
+    "image": "screenshots/backup.webp"
+  },
+  {
+    "id": "pilotlog",
+    "title": "Export to PILOTLOG",
+    "group": "Sharing",
+    "summary": "Prepare a compatible CSV and inspect the import preview.",
+    "steps": [
+      "Set the airline’s two-character code in Settings.",
+      "Choose the date range and prepare the PILOTLOG export.",
+      "Use PILOTLOG’s Import Wizard. Review inferred roles, instrument time, night estimates and assumed landings."
+    ],
+    "help": "logbooks",
+    "image": "screenshots/pilotlog.webp"
+  },
+  {
+    "id": "logten",
+    "title": "Export to LogTen",
+    "group": "Sharing",
+    "summary": "A separate export format with the same reviewable roster fields.",
+    "steps": [
+      "Choose Export to LogTen Pro in Settings.",
+      "On LogTen for Mac, use File → Import from File → Flights.",
+      "Check field mappings and automatic recalculation settings. A roster export is not a verified logbook."
+    ],
+    "help": "logbooks",
+    "image": "screenshots/logten.webp"
+  },
+  {
+    "id": "settings",
+    "title": "Choose what Sync means",
+    "group": "Setup & controls",
+    "summary": "Set your normal download scope and retrieve past months on demand.",
+    "steps": [
+      "Choose current month or current + next under Sync Preferences.",
+      "On the main roster, pull firmly until Release to sync appears.",
+      "Use Download Past Rosters for a selected month or the past 12 months. Next month appears only when available."
+    ],
+    "help": "sync",
+    "image": "screenshots/settings.webp"
+  },
+  {
+    "id": "roster-dark",
+    "title": "Make the display yours",
+    "group": "Setup & controls",
+    "summary": "Light, Dark or Follow Device, with the familiar roster colors.",
+    "steps": [
+      "Choose your appearance in Settings.",
+      "Set whether opening the app places today at the left edge.",
+      "Choose current + next month or full saved history without deleting older months."
+    ],
+    "help": "saved",
+    "image": "screenshots/roster-dark.webp"
+  },
+  {
+    "id": "setup",
+    "title": "Start with your own roster website",
+    "group": "Setup & controls",
+    "summary": "Save your authorized connection details and start the first sync.",
+    "steps": [
+      "Read the usage notices, then enter the HTTPS roster website, Crew ID and password.",
+      "Choose Save and Sync and authenticate on your device.",
+      "Keep the app open; if the website requests verification, use Connection and Resume."
+    ],
+    "help": "start",
+    "image": "screenshots/setup.webp"
+  },
+  {
+    "id": "help",
+    "title": "Help that travels with you",
+    "group": "Setup & controls",
+    "summary": "Search the same guide inside the app, even while offline.",
+    "steps": [
+      "Open Settings → Help & gestures.",
+      "Search for a gesture, tool or task.",
+      "Open a topic for detailed steps. The website guide uses the same source content."
+    ],
+    "help": "gestures",
+    "image": "screenshots/help.webp"
+  },
+  {
+    "id": "notices",
+    "title": "Keep official sources first",
+    "group": "Setup & controls",
+    "summary": "Clear limitations, privacy information and support.",
+    "steps": [
+      "Read the usage notices before getting started.",
+      "Use Settings → About for notices, privacy and support.",
+      "The app is for entertainment only, not official operational documents or duty-legality decisions."
+    ],
+    "help": "privacy",
+    "image": "screenshots/notices.webp"
+  },
+  {
+    "id": "atis",
+    "title": "Check the departure ATIS",
+    "group": "Flight & duty",
+    "summary": "Available Hong Kong departure runways, independently of roster sync.",
+    "steps": [
+      "Open the departure ATIS link from flight details.",
+      "Check the report time, runway wording and full text. The report pictured is fictional.",
+      "A published ATIS runway is not a forecast or clearance for your flight. Verify the current official broadcast."
+    ],
+    "help": "weather",
+    "image": "screenshots/atis.webp"
+  },
+  {
+    "id": "pdf-sharing",
+    "title": "Choose what to share",
+    "group": "Sharing",
+    "summary": "Create a PDF from saved data without another sync.",
+    "steps": [
+      "Open Settings → Sharing.",
+      "Select Current month or Current + next month.",
+      "Tap Share roster PDF, review the preview, then choose Share or Print."
+    ],
+    "help": "pdf-sharing",
+    "image": "screenshots/pdf-sharing.webp"
+  }
+]
