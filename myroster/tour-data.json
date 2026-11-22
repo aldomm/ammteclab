@@ -3,11 +3,11 @@
     "id": "roster",
     "title": "Your month, at a glance",
     "group": "Roster",
-    "summary": "A compact matrix that keeps the whole duty readable.",
+    "summary": "A compact matrix that keeps the whole duty readable. The latest development version adds tiny gate/registration labels, wrapped hotel names and a smaller actual-time A; this screenshot shows the earlier layout.",
     "steps": [
       "Saved opening months appear first; remaining history loads afterward. Return from another app to the same position on the same day. Swipe across dates; the month header follows the visible month.",
       "Tap a flight number for details, or a purple report time for an FDP scenario.",
-      "Read each day’s FLT footer. Overnight sectors count in full on their arrival date."
+      "Read each day’s FLT footer. Overnight sectors count in full on their arrival date. In the latest development version, gate sits below report, registration below [aircraft type], and hotel names wrap without a leading Rest or slash suffix. Pinch to read tiny labels; actual-time digits stay normal size."
     ],
     "help": "matrix",
     "image": "screenshots/roster.webp"
@@ -293,7 +293,7 @@
     "steps": [
       "Open Settings → Help & gestures.",
       "Search for a gesture, tool or task.",
-      "Open a topic for detailed steps. The website guide uses the same source content."
+      "Open a topic for illustrated steps and tap numbered pointers for explanations. The website guide uses the same source content; development-only changes are marked until their TestFlight release."
     ],
     "help": "gestures",
     "image": "screenshots/help.webp"
