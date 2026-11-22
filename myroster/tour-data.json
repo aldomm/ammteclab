@@ -5,7 +5,7 @@
     "group": "Roster",
     "summary": "A compact matrix that keeps the whole duty readable.",
     "steps": [
-      "Swipe across dates. The month header follows the visible month.",
+      "Saved opening months appear first; remaining history loads afterward. Return from another app to the same position on the same day. Swipe across dates; the month header follows the visible month.",
       "Tap a flight number for details, or a purple report time for an FDP scenario.",
       "Read each day’s FLT footer. Overnight sectors count in full on their arrival date."
     ],
