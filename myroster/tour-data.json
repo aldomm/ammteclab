@@ -3,11 +3,11 @@
     "id": "roster",
     "title": "Your month, at a glance",
     "group": "Roster",
-    "summary": "A compact matrix that keeps the whole duty readable. Build 16 adds tiny gate/registration labels, wrapped hotel names and a smaller actual-time A; this screenshot shows the earlier layout.",
+    "summary": "A compact matrix that keeps the whole duty readable. Busy days resize independently; portrait shows Last synced and landscape hides the footer. Tiny gate/registration labels and wrapped hotel names remain. This screenshot shows an earlier layout.",
     "steps": [
       "Saved opening months appear first; remaining history loads afterward. Return from another app to the same position on the same day. Swipe across dates; the month header follows the visible month.",
       "Tap a flight number for details, or a purple report time for an FDP scenario.",
-      "Read each day’s FLT footer. Overnight sectors count in full on their arrival date. In build 16, gate sits below report, registration below [aircraft type], and hotel names wrap without a leading Rest or slash suffix. Pinch to read tiny labels; actual-time digits stay normal size."
+      "Read each day’s FLT footer. Overnight sectors count in full on their arrival date. Gate sits below report, registration below [aircraft type], and hotel names wrap without a leading Rest or slash suffix. Pinch to read tiny labels; actual-time digits stay normal size."
     ],
     "help": "matrix",
     "image": "screenshots/roster.webp"
@@ -29,11 +29,11 @@
     "id": "comparison",
     "title": "Compare with the published roster",
     "group": "Roster",
-    "summary": "Latest above, Original below. Both move together.",
+    "summary": "Latest above, Original below. Both grids move together while titles, totals and subtitles stay pinned horizontally.",
     "steps": [
       "Open Settings → Roster comparison and select a month.",
       "Scroll horizontally to compare the same dates; scroll vertically for longer duties.",
-      "Light amber marks changed past days. Originals are preserved locally."
+      "Sector changes alone are highlighted: light amber for past dates, stronger for today/future. Timing differences alone are ignored. Originals are preserved locally."
     ],
     "help": "comparison",
     "image": "screenshots/comparison.webp"
@@ -124,7 +124,7 @@
     "steps": [
       "Tap a weather summary in flight details.",
       "Inspect the full report and its issue, observation and validity times.",
-      "Refresh weather independently. The sample report pictured here is fictional, not live weather."
+      "Before departure, weather refreshes independently; afterward each flight keeps its last saved pre-departure weather. Optional background refresh updates weather only. The sample report is fictional, not live weather."
     ],
     "help": "weather",
     "image": "screenshots/weather.webp"
