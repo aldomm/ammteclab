@@ -250,10 +250,10 @@
     "id": "settings",
     "title": "Choose what Sync means",
     "group": "Setup & controls",
-    "summary": "Set your normal download scope and retrieve past months on demand.",
+    "summary": "Use two pull stages for today or current/next month, and retrieve past months from Settings.",
     "steps": [
-      "Choose current month or current + next under Sync Preferences.",
-      "On the main roster, pull firmly until Release to sync appears.",
+      "Sync Preferences controls Save and Sync and preferred downloads.",
+      "On the main roster, pull to Sync Today Only; pull farther for Sync Current + Next month. Release to start. Haptics mark each stage.",
       "Use Download Past Rosters for a selected month or the past 12 months. Next month appears only when available."
     ],
     "help": "sync",
