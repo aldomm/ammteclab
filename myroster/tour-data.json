@@ -7,6 +7,7 @@
     "steps": [
       "Saved opening months appear first; remaining history loads afterward. Return from another app to the same position on the same day. Swipe across dates; the month header follows the visible month.",
       "Tap a flight number for details, or a purple report time for an FDP scenario.",
+      "Upcoming update: the monthly header uses the website Block Hours total. Daily FLT counts numeric flight identifiers only; HQ1/RE09 remain duties. Numeric return-to-origin flights still count.",
       "Read each day’s FLT footer. Overnight sectors count in full on their arrival date. Gate sits below report, registration below [aircraft type], and hotel names wrap without a leading Rest or slash suffix. Pinch to read tiny labels; actual-time digits stay normal size."
     ],
     "help": "matrix",
@@ -254,7 +255,8 @@
     "steps": [
       "Sync Preferences controls Save and Sync and preferred downloads.",
       "On the main roster, pull to Sync Today Only; pull farther for Sync Current + Next month. Release to start. Haptics mark each stage.",
-      "Use Download Past Rosters for a selected month or the past 12 months. Next month appears only when available."
+      "Use Download Past Rosters for a selected month or the past 12 months. Next month appears only when available.",
+      "Upcoming update: Today Only also refreshes affected saved monthly summaries without downloading every duty detail. Previous totals retain their date if that request fails."
     ],
     "help": "sync",
     "image": "screenshots/settings.webp"
