@@ -3,11 +3,11 @@
     "id": "roster",
     "title": "Your month, at a glance",
     "group": "Roster",
-    "summary": "A compact matrix that keeps the whole duty readable. Busy days resize independently; portrait shows Last synced and landscape hides the footer. Tiny gate/registration labels and wrapped hotel names remain. This screenshot shows an earlier layout.",
+    "summary": "A compact matrix that keeps the whole duty readable. Busy days resize independently; portrait shows compact full/day sync stamps and landscape hides the footer. Tiny gate/registration labels and wrapped hotel names remain. This matrix screenshot illustrates the earlier layout; the latest build uses the compact sync stamps described here.",
     "steps": [
       "Saved opening months appear first; remaining history loads afterward. Return from another app to the same position on the same day. Swipe across dates; the month header follows the visible month.",
       "Tap a flight number for details, or a purple report time for an FDP scenario.",
-      "Upcoming update: the monthly header uses the website Block Hours total. Daily FLT counts numeric flight identifiers only; HQ1/RE09 remain duties. Numeric return-to-origin flights still count.",
+      "Build 19: the monthly header uses the website Block Hours total. Daily FLT counts numeric flight identifiers only; HQ1/RE09 remain duties. Numeric return-to-origin flights still count.",
       "Read each day’s FLT footer. Overnight sectors count in full on their arrival date. Gate sits below report, registration below [aircraft type], and hotel names wrap without a leading Rest or slash suffix. Pinch to read tiny labels; actual-time digits stay normal size."
     ],
     "help": "matrix",
@@ -249,14 +249,14 @@
   },
   {
     "id": "settings",
-    "title": "Choose what Sync means",
+    "title": "Choose your view and sync scope",
     "group": "Setup & controls",
-    "summary": "Use two pull stages for today or current/next month, and retrieve past months from Settings.",
+    "summary": "Choose Pilot or Cabin Crew, set Default View, and use three pull stages.",
     "steps": [
-      "Sync Preferences controls Save and Sync and preferred downloads.",
-      "On the main roster, pull to Sync Today Only; pull farther for Sync Current + Next month. Release to start. Haptics mark each stage.",
+      "Default View offers current/next month, full history or today onward. Save and Sync downloads current/next month and applies that view. Website & login is separate.",
+      "Pull for today’s reporting duties, farther through the next day off, or deepest for current + next month. Release to start; retract to shorten the scope.",
       "Use Download Past Rosters for a selected month or the past 12 months. Next month appears only when available.",
-      "Upcoming update: Today Only also refreshes affected saved monthly summaries without downloading every duty detail. Previous totals retain their date if that request fails."
+      "Build 19: Today Only also refreshes affected saved monthly summaries without downloading every duty detail. Previous totals retain their date if that request fails."
     ],
     "help": "sync",
     "image": "screenshots/settings.webp"
