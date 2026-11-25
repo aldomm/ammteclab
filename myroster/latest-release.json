@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "bundleID": "com.aldoapps.myRoster",
+  "version": "1.0",
+  "build": 20,
+  "available": true,
+  "releasedAt": "2026-11-25T01:30:00Z",
+  "minimumOS": "17.0",
+  "summary": "Fixes saved rosters not appearing after reopening."
+}
