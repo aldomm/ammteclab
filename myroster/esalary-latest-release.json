@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "bundleID": "com.aldoapps.eSalaryHKG",
   "version": "1.0",
-  "build": 32,
+  "build": 33,
   "available": true,
   "minimumOS": "17.0",
-  "summary": "Interactive pay settings help with anonymous payslip examples and field-by-field guidance."
+  "summary": "Fixes missing payslip example images in the interactive settings help."
 }
