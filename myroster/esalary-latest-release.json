@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "bundleID": "com.aldoapps.eSalaryHKG",
+  "version": "1.0",
+  "build": 30,
+  "available": true,
+  "minimumOS": "17.0",
+  "summary": "Initial internal TestFlight release."
+}
